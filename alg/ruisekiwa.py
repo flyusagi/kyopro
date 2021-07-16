@@ -9,6 +9,6 @@ s = [0]
 for i in range(n):
   s.append(s[i] + a[i])
 
-#1から3までの和を求める
+# ex. 1から3までの和を求める
 ans = s[4]-s[1]
 print(ans)
